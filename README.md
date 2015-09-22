@@ -10,4 +10,7 @@ photography - logo design.
 [Instagram] (https://instagram.com/jumbochen_)
 [Github] (https://github.com/chenise-paquette)
 
+## Contact Me!
 
+-chenise.summer@gmail.com
+-613 410 3936
