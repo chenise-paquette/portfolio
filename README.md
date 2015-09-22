@@ -11,5 +11,6 @@ I am a female Canadian visual communicator with passion for conceptual and creat
 
 ## Contact Me!
 
--chenise.summer@gmail.com
--613 410 3936
+chenise.summer@gmail.com
+
+613 410 3936

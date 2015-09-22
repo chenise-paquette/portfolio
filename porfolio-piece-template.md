@@ -6,6 +6,8 @@ name: Spitz Packaging Design
 by: Chenise Paquette
 about: Enviormentaly freindly re-design from the original packaging. Hand constructed, tested and designed. 
 tools: illustrator
+process:
+photo:
 links: benhance
 
 ---
