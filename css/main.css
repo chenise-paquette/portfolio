@@ -63,11 +63,7 @@ a:hover {
 }
 
 .picgrid{
-  width: 200%;
-  height: auto;
-  display:block;
-  padding: 10px;
-  column-span: all;
+  width: 100%;
 }
 
 .picgrid:hover{
@@ -127,14 +123,6 @@ footer {
 body {
   padding:0;
   margin:0;
-  }
-  
-  .project {
-    padding-left: 1em;
-  }
-  
-  .project-about {
-    padding: 1em;
   }
     
 }
