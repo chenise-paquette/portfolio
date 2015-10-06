@@ -34,3 +34,19 @@ footer {
 .links {
   text-align: center;
 }
+
+.portrait{
+    width: 1000px;
+    padding-top: 2em; 
+}
+
+.banner {
+    height: auto;
+    width: 100%;
+}
+
+.bio {
+  max-width: 30em;
+  left: 4em;
+  display: block;
+}
