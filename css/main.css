@@ -36,7 +36,7 @@ li{
 }
  
 .navtype{
-    color: #C287B4;
+    color: #EB4724;
 }
 
 .bio {
@@ -50,7 +50,7 @@ li{
 
 .links {
   text-align: center;
-  color:#C287B4;
+  color: #EB4724;
 }
 
 a {
@@ -79,10 +79,10 @@ footer {
 
 .logo {
     position:absolute;
-    width:89%;
+    width:93%;
     height: auto;
-    left: 3em;
-    padding-top: 2.2em;
+    left: 2em;
+    padding-top: 4.5em;
 }
   
 .content {
@@ -92,6 +92,10 @@ footer {
   padding-right: 2em;
 }
 
+.scroll {
+    
+    overflow: scroll;
+}
 .static-bar {
   background-color: white;
   border-bottom: white;
@@ -102,17 +106,16 @@ footer {
   padding-right: 9em;
 }
 
-
 @media only screen and (min-width: 20em) {
     
-  .content {
+.content {
   max-width: 50em;
   margin: 0 auto;
   padding-left: 2em;
   padding-right: 2em;
 }
   
-  .navigation {
+.navigation {
   padding-top: 1em;
   text-align: right;
   text-decoration: none;
