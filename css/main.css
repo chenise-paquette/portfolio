@@ -53,6 +53,10 @@ li{
   color: #EB4724;
 }
 
+.navwordmark {
+    width: 20%;
+}
+
 a {
   color: grey;
   text-decoration: none;
@@ -98,7 +102,6 @@ footer {
 }
 .static-bar {
   background-color: white;
-  border-bottom: white;
   position: fixed;
   text-align: center;
   width:100%;
