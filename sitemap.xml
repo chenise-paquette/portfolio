@@ -3,7 +3,10 @@
     
 <url>
     <loc>https://cspdesign.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2015-10-27</lastmod>
 </url>
 
-
 </urlset>
+
