@@ -117,6 +117,17 @@ footer {
     color: #EB4724;
 }
 
+.skip_links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skiplinks a{
+    position: absolute;
+    top: -3em;
+}
+
 @media only screen and (min-width: 20em) {
     
 .content {
