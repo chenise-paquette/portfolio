@@ -107,6 +107,16 @@ footer {
   padding-right: 9em;
 }
 
+.navtop{
+    font-size: 2rem;
+    color: #EB4724;
+}
+
+.navbottom{
+    font-size: 2rem;
+    color: #EB4724;
+}
+
 @media only screen and (min-width: 20em) {
     
 .content {
