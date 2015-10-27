@@ -21,7 +21,7 @@ layout: default
 <header>
   <div class="static-bar grid">
     <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <h1 class="mega pad-t"><a class="navtype" href="{{site.baseurl}}/index.html"><img class="navwordmark" src="img/chenwordmark.svg" alt="navwordmark"></a></h1>
+      <h1 class="mega"><a class="navtype" href="{{site.baseurl}}/index.html"><img class="navwordmark" src="img/chenwordmark.svg" alt="navwordmark"></a></h1>
     </div>
     <div class="navigation unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
       <ul>
@@ -29,6 +29,7 @@ layout: default
       </ul
     </div>
   </div>
+  {% include nav.html %}
 </header>  
       
 <footer>
@@ -39,6 +40,7 @@ layout: default
     <li><a class="links" href="https://instagram.com/jumbochen_">INSTAGRAM</a></li>
   </ul>
 </div>
+{% include nav.html %}
 </footer> 
   
 </body>
