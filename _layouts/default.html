@@ -21,12 +21,14 @@ layout: default
 </head>
 <html>
 <body>
-    
+
+<main role="main">
 {{content}}
+</main>
 
 <div itemscope itemtype="https://schema.org/Person">
    
-<header>
+<header role="banner">
   <div class="static-bar grid">
     <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
       <h1 class="mega"><a class="navtype" itemprop="url" href="{{site.baseurl}}/index.html" rel="me"><img itemprop="image" class="navwordmark" src="img/chenwordmark.svg" alt="navwordmark"></a></h1>
@@ -39,8 +41,8 @@ layout: default
   </div>
   {% include nav.html navclass='navtop' %}
 </header>  
-      
-<footer>
+  
+<footer role="contentinfo">
 <div class="links pad-t">
   <ul>
     <li><a itemprop="url" class="links" href="https://www.flickr.com/photos/scotchsofa" rel="external">FLICKR  </a></li>
