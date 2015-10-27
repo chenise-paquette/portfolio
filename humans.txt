@@ -1,0 +1,18 @@
+# humans.txt.org
+
+# TEAM
+
+Designer & Developer: Chenise Paquette
+Site: https://cspdesign.com
+Github: https://github.com/chenise-paquette
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Softeware
+
+-Brackets
+-Git + GitHub
+-Markdown

@@ -1,0 +1,4 @@
+Sitemap: htttps://cspdesign.com/sitemap.xml
+
+User-agent: *
+Disallow: /img
