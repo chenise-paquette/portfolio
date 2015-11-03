@@ -137,6 +137,17 @@ footer {
     top: 0;
 }
 
+.skip-links b a{
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: white;
+    padding: 0.75em 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+    bottom: -3em;
+}
+
 @media only screen and (min-width: 20em) {
     
 .content {
