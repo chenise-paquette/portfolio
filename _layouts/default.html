@@ -1,41 +1,7 @@
 ---
 layout: default
 ---
-    
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-    <title>CSP Design Graphic Design Porfolio • Design By: Chenise Summer Paquette in Ottawa</title>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="CSP Design: Graphic Design Porfolio">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="CSP Design">
-  <meta property="og:url" content="https://cspdesign.com">
-  <meta property="og:image" content="img/chenwordmark.svg">
-  <meta property="og:cspdesign" content="CSP Design Porfolio">
-  <meta property="og:description" content="CSP Design: Graphic Design Porfolio">
-</head>
-<html>
-<body>
-    
-<header>
-  <div class="static-bar grid {{include.navclass}}">
-    <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <h1 class="mega"><a class="navtype" href="{{site.baseurl}}/index.html"><img class="navwordmark" src="Images/Icons/chenwordmark.svg" alt="navwordmark"></a></h1>
-    </div>
-    <div class="navigation unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <ul>
-        <li><a class="navtype" href="{{site.baseurl}}/about.html">ABOUT</a></li>
-      </ul
-    </div>
-  </div>
-</header>
-
-
+{% include header.html %}
 <ul class="skip-link hide">
  <li><a href='#nav'>Skip to navagation</a></li>
  <li><a href='#main'>Skip to main content</a></li>
@@ -70,7 +36,7 @@ layout: default
     <li><a itemprop="url" class="links" href="https://instagram.com/jumbochen_" rel="external">INSTAGRAM</a></li>
   </ul>
 </div>
-{% include nav.html navclass='navbottom' %}
+{% include footer.html%}
 </footer> 
       
 </div>
