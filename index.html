@@ -1,12 +1,8 @@
+{% include header.html %}
+
 <div itemscope itemtype="https://schema.org/Person"> 
 
-<div class="logo">
-          <div class="grid">
-        <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-    <img itemprop="image" class="logo" src="Images/Icons/chenwordmark.svg" alt="logo">
-    </div>
-    </div>
-</div>
+{% include nav.html %}
     
 <div class="banner">
     <img itemprop="image" class="banner" src="Images/portrait.jpg" alt="portrait">
@@ -31,5 +27,24 @@
 </div>
     
 </div>
+
+<!--
+<ul class="skip-link hide">
+ <li><a href='#nav'>Skip to navagation</a></li>
+ <li><a href='#main'>Skip to main content</a></li>
+</ul> -->
+
+<main role="main">
+{{content}}
+</main> 
+  
+
+{% include footer.html %}
+ 
+      
+</div>
+
+</body>
+</html>
 
 
