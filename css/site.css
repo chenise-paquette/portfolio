@@ -1,0 +1,86 @@
+/* Text & Fonts */
+body{
+  font: normal 100%/1.5 Poiret One,sans-serif;
+}
+p,a{
+  padding:2% 0;
+  text-decoration: none;
+}
+nav a,
+footer p{
+  display:inline;
+  color: #EB4724;
+  text-transform:uppercase;
+  padding-left:2%;
+}
+/* Layout */
+header{
+  position:fixed;
+  width:80%;
+  top:0;
+  height:40px;
+  background:rgba(255,255,255,0.95);
+  padding:5px 10%;
+  display:table;
+  z-index:200;
+}
+nav{
+  display:table-cell;
+  vertical-align:middle;
+  text-align:right;
+}
+section{
+  max-width:1200px;
+  width:80%;
+  margin:0 auto;
+  padding:0 10%;
+}
+footer{
+  width:60%;
+  padding:2% 20%;
+  text-align:center;
+}
+/* Image Styles */
+main img{
+  width:100%;
+}
+#bg-cover_photo img{
+  position:relative;
+  top:200px;
+  z-index:100;
+}
+#portfolio a img{
+  width:50%;
+  max-height:300px;
+  display:inline-block;
+  margin-right:-4px;
+}
+#portfolio a img:hover{
+  opacity:0.50;
+}
+/* Portfolio Background */
+#bg-cover_photo{
+  height:100vh;
+  width:100%;
+  margin-bottom:2%;
+  text-align:center;
+  background:url('../Images/portrait.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media only screen and (max-width:700px){
+  section{
+    width:100%;
+    padding:0 2%; 
+  }
+  #portfolio a img{
+    width:100%;
+    display:block;
+  }
+  footer{
+    width:100%;
+    padding:2% 0;
+  }
+}
