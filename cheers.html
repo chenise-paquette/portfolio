@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-    <title>Application • CSP Design</title>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Cheers. The app that navagates  you to your favourite bars and clubs.">
-</head>
-<html>
-<body>
-
-<header>
-  <div class="static-bar grid">
-    <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <h1 class="mega pad-t"><a class="navtype" href="index.html"><img class="navwordmark" src="img/chenwordmark.svg" alt="navwordmark"></a></h1>
-    </div>
-    <div class="navigation unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <ul>
-        <li><a class="navtype" href="about.html">ABOUT</a></li>
-      </ul
-    </div>
-  </div>
-</header>
+{% include header.html %}
+{% include nav.html navclass='navtop' %}
     
  <h1>Cheers! - The app that gets you on track!</h1>
     
@@ -73,15 +49,7 @@ when near by</p>
     <img class="portrait" src="img/highfid.jpg" alt="portrait">
     </div>
     
-<footer>
-<div class="links pad-t">
-  <ul>
-    <li><a class="links" href="https://www.flickr.com/photos/scotchsofa">FLICKR  </a></li>
-    <li><a class="links" href="https://www.behance.net/chenisepaquette">BEHANCE</a></li>
-    <li><a class="links" href="https://instagram.com/jumbochen_">INSTAGRAM</a></li>
-  </ul>
-</div>
-</footer> 
+{% include footer.html%}
   
 </body>
 </html
