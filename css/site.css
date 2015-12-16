@@ -2,7 +2,7 @@ body{
   font: normal 100%/1.5 Poiret One,sans-serif;
 }
 p,a{
-  padding:2% 0;
+  padding:0% 0;
   text-decoration: none;
 }
 nav a,
@@ -11,6 +11,8 @@ footer p{
   color: #EB4724;
   text-transform:uppercase;
   padding-left:2%;
+  text-align: center;
+  width: 10%;
 }
 
 header{
@@ -23,22 +25,40 @@ header{
   display:table;
   z-index:200;
 }
+
 nav{
   display:table-cell;
   vertical-align:middle;
   text-align:right;
 }
+
 section{
   max-width:1200px;
   width:80%;
   margin:0 auto;
   padding:0 10%;
+  padding-top: 100px;
 }
 
 footer{
-  width:2s0%;
+  display: inline;
   padding:2% 20%;
   text-align:center;
+  color:#EB4724; 
+  text-transform:uppercase;
+  padding-left:2%;
+  font-size: 80%;
+  width: 10px;
+}
+
+.link{
+    font-size: 100%;
+    color: #EB4724;
+}
+
+.cr{
+    font-size: 20%;
+    position: relative;
 }
 
 main img{
